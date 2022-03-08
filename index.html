@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	  <head>
+	    <meta http-equiv="content-type" content="text-html; charset=utf-8" />
+	    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <title>stock_chart</title>
+	  </head>
+	  <body>
+	    <center>
+			<div >
+				<input type="text" id="index" placeholder="Please enter a company index" onclick="value=''">
+				<button type="submit" id="button" value="Check" onclick="showStockChart()">Show the chart</button><br>
+			</div>
+			<div id="container" style="height: 600px; width:100%;"></div>
+		</center>
+	    <script src="script.js"></script>
+	  </body>
+</html>
